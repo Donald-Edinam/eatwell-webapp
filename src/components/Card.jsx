@@ -11,9 +11,9 @@ export const Card = () => {
                 </a>
                 <div className="px-4 pb-5">
                     <a href="#">
-                        <h5 className="text-sm text-center font-semibold tracking-tight text-gray-900">Fresh Pork</h5>
+                        <h5 className="text-xs text-center font-semibold tracking-tight text-gray-900">Fresh Pork</h5>
                     </a>
-                    <p classNameName='text-center' text-sm>
+                    <p className='text-center' text-xs>
                         25.4k+ view
                     </p>
                     <div className="flex items-center justify-between">

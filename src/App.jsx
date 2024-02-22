@@ -1,10 +1,10 @@
 import {BottomNavigation}  from "./components/BottomNavigation";
-import {EatWell}  from "./pages/EatWell";
-import {HomePage} from "./pages/HomePage";
+import {EatWell}  from "./main_pages/EatWell";
+import {HomePage} from "./main_pages/HomePage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import {Messenger}  from "./pages/Messenger";
-import  {Cart}  from "./pages/Cart";
-import {MartEnd}  from "./pages/MartEnd";
+import {Messenger}  from "./main_pages/Messenger";
+import  {Cart}  from "./main_pages/Cart";
+import {MartEnd}  from "./main_pages/MartEnd";
 
 
 export default function App() {

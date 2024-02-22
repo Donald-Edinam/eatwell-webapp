@@ -7,11 +7,13 @@ import ProductCard from '../components/ProductCard'
 export const HomePage = () => {
   return (
     <>
-        <HomeTab />
+      <div className="overflow-auto">
+      <HomeTab />
         <SearchBar />
         <HorizontalScroll />
         <ProductCard />
         <ProductCard />
+      </div>
     </>
   )
 }

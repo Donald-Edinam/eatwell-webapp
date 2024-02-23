@@ -15,11 +15,13 @@ export const HomePage = () => {
   return (
     <>
       <div className="overflow-auto pb-10">
-      <HomeTab />
+        <HomeTab />
         <SearchBar />
         <HorizontalScroll />
-        <ProductCard />
-        <SecondProductCard />
+        <div className="overflow-y-auto h-100">
+          <ProductCard />
+          <SecondProductCard />
+        </div>
       </div>
     </>
   )

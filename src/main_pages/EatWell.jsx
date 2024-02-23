@@ -11,7 +11,7 @@ export const EatWell = () => {
     <>
       <div className="">
         <StickyNavBar icon={BellIcon} secondIcon={ElipseIcon} heading={"EatWell"} />
-       <div className="h-90">
+       <div className="h-90 mt-20">
         <Skeleton />
         <Skeleton />
         <Skeleton />

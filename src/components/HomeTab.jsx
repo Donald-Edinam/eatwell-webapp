@@ -5,7 +5,7 @@ export const HomeTab = () => {
         <>
 
 
-            <div className="bg-white-900 border-b border-gray-200 fixed w-full z-20 top-0 start-0">
+            <div className="bg-white border-b border-gray-200 fixed w-full z-20 top-0 start-0">
                 <ul className="flex flex-wrap -mb-px justfiy-content-center align-items-center text-xs font-medium text-center text-gray-500 dark:text-gray-400">
                     
                     <li className="me-2">

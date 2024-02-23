@@ -23,7 +23,7 @@ export const BottomNavigation = () => {
             <div className="fixed bottom-0 left-0 z-50 w-full h-16 bg-white border-t border-gray-200">
                 <div className="grid h-full max-w-lg grid-cols-5 mx-auto font-medium">
                     {navItems.map((item, index) => (
-                           <a href={item.link} className="inline-flex flex-col items-center justify-center px-5 group">
+                           <a href={item.link} key={index} className="inline-flex flex-col items-center justify-center px-5 group">
                               <img src={item.linkIcon} className='w-5' alt="" />
                               <span className="text-xs text-gray-500 dark:text-gray-400 group-hover:text-red-600 mt-1">{item.linkName}</span>
                            </a>

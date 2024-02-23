@@ -4,7 +4,7 @@ export const SearchBar = () => {
     return (
         <>
 
-            <form className="flex items-center max-w-sm mx-auto py-5 px-4">
+            <form className="flex items-center max-w-sm mt-10 mx-auto py-5 px-4">
                 <label for="simple-search" className="sr-only">Search</label>
                 <div className="relative w-full">
                     <div className="absolute inset-y-0 start-0 flex items-c-5enter ps-3 pointer-events-none">

@@ -16,12 +16,12 @@ export const SecondCard = ({ heading, text, view, img }) => {
                     <a href="#">
                         <h5 className="text-xs text-center font-semibold tracking-tight text-gray-900">{text}</h5>
                     </a>
-                    <button className='btn bg-red-700 px-4 py-0.4 rounded-lg text-white m-2 ml-3' type="button">View</button>
+                    
                     {/* <p className='text-center text-xs'>
                         {view}
                     </p> */}
-                    <div className="flex items-center justify-between">
-                     
+                    <div className="flex items-center justify-center">
+                    <button className='btn bg-red-700 px-4 py-0.4 rounded-lg text-white m-2 ml-3' type="button">View</button>
                     </div>
                 </div>
             </div>

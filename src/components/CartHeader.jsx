@@ -3,7 +3,7 @@ import React from 'react'
 export const CartHeader = ({ secondIcon, icon }) => {
     return (
         <>
-            <div class="grid grid-cols-2 md:grid-cols-2 gap-5 mt-5 items-center justify-center fixed w-full z-20 top-0 start-0 ">
+            <div class="grid grid-cols-2 md:grid-cols-2 gap-5 mx-2 p-5 items-center bg-white justify-center fixed w-full z-20 top-0 start-0 ">
 
                 <div className='flex gap-5 mx-3'>
                     <h3 className='text-center'>Shopping Cart</h3>

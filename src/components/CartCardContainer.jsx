@@ -22,7 +22,7 @@ const CartCardContainer = () => {
             <h4 className='mt-1 ml-3'>New Arrivals</h4>
         </div>
 
-        <div className="grid grid-cols-3 md:grid-cols-3 gap-4 px-2 mb-10">
+        <div className="grid grid-cols-3 md:grid-cols-3 gap-4 px-2 mb-20">
            {rankingItems.map(r_item => (
             <CartCard heading={r_item.heading} text={r_item.text} img={r_item.img} view={r_item.view} key={r_item.key}/>
            ))}

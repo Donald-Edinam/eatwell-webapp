@@ -16,7 +16,7 @@ export const HomePage = () => {
     <>
       <div className="overflow-auto pb-10">
         <HomeTab />
-        <SearchBar />
+        <SearchBar padding={"mt-10"}/>
         <HorizontalScroll />
         <div className="overflow-y-auto h-100">
           <ProductCard />

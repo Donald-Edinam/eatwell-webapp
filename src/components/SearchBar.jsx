@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const SearchBar = () => {
+export const SearchBar = ({ padding }) => {
     return (
         <>
 
-            <form className="flex items-center max-w-sm mt-10 mx-auto py-5 px-4">
+            <form className={`flex items-center max-w-sm ${padding} mx-auto py-5 px-4`}>
                 <label for="simple-search" className="sr-only">Search</label>
                 <div className="relative w-full">
                     <div className="absolute inset-y-0 end-0 flex items-c-5enter ps-3 m-3 pointer-events-none">

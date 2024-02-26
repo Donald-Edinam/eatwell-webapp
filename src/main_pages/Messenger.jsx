@@ -12,7 +12,7 @@ export const Messenger = () => {
     <>
       <MessengerHeader icon={TrashIcon} secondIcon={ElipseIcon}/>
       <MessengerSubHeader />
-      <SearchBar />
+      <SearchBar padding={"mt-3"}/>
     </>
   )
 }
